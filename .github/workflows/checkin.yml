@@ -43,8 +43,8 @@ jobs:
 
     - name: Commit
       run: |
-        git config --global user.email kysonyangs@gmail.com
-        git config --global user.name kysonyangs
+        git config --global user.email liuzhuang0410@163.com
+        git config --global user.name zainll
         git add .
         git commit -m "Update flow.log" -a
     - name: Push changes
